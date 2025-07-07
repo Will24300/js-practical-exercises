@@ -42,6 +42,3 @@ let discountedProduct2 = discountFn.bind(product2);
 
 console.log(discountedProduct1());
 console.log(discountedProduct2());
-
-// console.log(discountFn.call(product1));
-// console.log(discountFn.call(product2));
